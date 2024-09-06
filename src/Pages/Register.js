@@ -25,7 +25,7 @@ const Register = () => {
   }
   
   const handleRegister = async(payload)=>{
-    await axios.post("https://tatkalsamacharapi.thecognizance.in/api/auth/register", payload)
+    await axios.post(`${process.env.REACT_APP_API_URL}/auth/register`, payload)
   }
   
 

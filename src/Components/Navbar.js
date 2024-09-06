@@ -47,7 +47,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Amisha Sharma
+                    {currentUser.name}
                     </a>
                     <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                       <a className="dropdown-item" href="#">Profile</a>
